@@ -1,0 +1,14 @@
+from grid import Grid
+from arrays import Array
+
+def main():
+	cube = Grid(3,3)
+	for i in range(cube.getHeight()):
+		for j in range(cube.getWidth()):
+			cube[i][j] = Array(3)
+	for x in range(cube.getHeight()):
+		for y in range(cube.getWidth()):
+			for z in range(len(cube[x][y])):
+				cube[x][y][z] = x,y,z
+
+main()

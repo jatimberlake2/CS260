@@ -1,0 +1,22 @@
+class Node(object):
+	"""Represents a singly linked node."""
+	def __init__(self, data, next = None):
+		"""Instantiates a Node with a default next of None."""
+		self.data = data
+		self.next = next
+	def __str__(self):
+		"""-> The string representation of the array."""
+		return str(self.data)
+	def add(self, data):
+		"""Add a node to the list"""
+		node = Node(data, None)
+		node.data = data;
+	if self.firstNode.data == None:
+		self.firstNode = node
+		self.lastNode = node
+	else:
+		self.lastNode.next = node
+		self.lastNode = node
+
+	self.size += 1
+

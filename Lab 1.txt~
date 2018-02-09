@@ -1,0 +1,9 @@
+center(str) - This function seems nice for allowing users to make their output a little more clean I suppose.
+
+list.pop([index]) - I really had no idea what a pop function would do, but it removes an item at a specific index. I think this could also be done with the delitem function
+
+tuple.__repr__() - The description for this function is not given in much detail, but I believe it will be useful eventually
+
+set.__xor__(...) - I was expecting something 'or' oriented, but this is basically a power function I guess.
+
+dict.__gt__(y) - Couldn't really tell what this was at all, but I'm guessing that it is a comparison determining if x is greater than y. Not sure if this is correct though.
